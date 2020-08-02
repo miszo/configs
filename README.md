@@ -1,4 +1,15 @@
+# miszo-configs
+
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
+Linter configs for my project. Feel free to use these conventions.
+
+Packages:
+
+- [commitlint-config-miszo](./packages/commitlint-config-miszo/)
+- [eslint-config-miszo](./packages/eslint-config-miszo/)
+- [stylelint-miszo](./packages/stylelint-miszo/)
 
 ## Contributing
 
