@@ -3,22 +3,6 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## <small>3.0.7 (2020-08-02)</small>
-
-* Fix: Yarn.lock ([380f0d7](https://github.com/miszo/configs/commit/380f0d7))
-
-
-
-
-
-## <small>3.0.7 (2020-08-02)</small>
-
-* New: Publish reports artifacts ([8c6cd63](https://github.com/miszo/configs/commit/8c6cd63))
-
-
-
-
-
 ## <small>3.0.6 (2020-08-02)</small>
 
 * New: Bump commitlint config [skip ci] ([ef69ea6](https://github.com/miszo/configs/commit/ef69ea6))

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-miszo",
-  "version": "3.0.7",
+  "version": "3.0.6",
   "description": "ESLint rules for my projects.",
   "homepage": "https://github.com/miszo/configs/tree/main/packages/eslint-config-miszo#readme",
   "author": "Miszo Radomski <miszo.radomski@gmail.com>",
@@ -37,8 +37,7 @@
     "lint:staged": "lint-staged --no-stash",
     "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json)\"",
     "prettier:check": "yarn run prettier --list-different",
-    "version": "yarn",
-    "prepublishOnly": "sh ./scripts/updateProjectVersion.sh && git add sonar-project.properties"
+    "version": "yarn"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "3.7.1",
