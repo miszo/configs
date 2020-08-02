@@ -33,5 +33,6 @@
   },
   "dependencies": {
     "@commitlint/config-conventional": "9.1.1"
-  }
+  },
+  "gitHead": "e67f90e43cf37284e2bfcc3b9ca84c4ec1bd0304"
 }

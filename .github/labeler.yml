@@ -1,0 +1,6 @@
+commitlint-config-miszo:
+  - packages/commitlint-config-miszo/**/*
+eslint-config-miszo:
+  - packages/eslint-config-miszo/**/*
+stylelint-miszo:
+  - packages/stylelint-miszo/**/*
