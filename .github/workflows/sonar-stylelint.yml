@@ -1,10 +1,8 @@
-name: /[stylelint-miszo/] Sonar Cloud
+name: stylelint-miszo SonarCloud
 on:
   push:
     branches:
       - main
-    paths:
-      - 'packages/stylelint-miszo/**'
   pull_request:
     types: [opened, synchronize, reopened]
     paths:

@@ -1,10 +1,8 @@
-name: /[commitlint-config-miszo/] SonarCloud
+name: commitlint-config-miszo SonarCloud
 on:
   push:
     branches:
       - main
-    paths:
-      - 'packages/commitlint-config-miszo/**'
   pull_request:
     types: [opened, synchronize, reopened]
     paths:
