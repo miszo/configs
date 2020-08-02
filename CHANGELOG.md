@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>3.0.7 (2020-08-02)</small>
+
+* Fix: Version ([ee871e4](https://github.com/miszo/configs/commit/ee871e4))
+
+
+
+
+
 ## <small>3.0.6 (2020-08-02)</small>
 
 * New: Bump commitlint config [skip ci] ([ef69ea6](https://github.com/miszo/configs/commit/ef69ea6))
