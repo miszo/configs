@@ -3,7 +3,6 @@
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
-![Sonar Cloud Analysis](https://github.com/miszo/configs/workflows/Sonar%20Cloud%20Analysis/badge.svg)
 ![Lerna publish](https://github.com/miszo/configs/workflows/Lerna%20publish/badge.svg)
 ![Labeler](https://github.com/miszo/configs/workflows/Labeler/badge.svg)
 
