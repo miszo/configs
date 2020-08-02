@@ -33,7 +33,7 @@
   "devDependencies": {
     "editorconfig": "0.15.3",
     "eslint": "7.6.0",
-    "eslint-config-miszo": "3.0.7",
+    "eslint-config-miszo": "3.0.6",
     "husky": "4.2.5",
     "lint-staged": "10.2.11",
     "prettier": "2.0.5"

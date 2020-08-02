@@ -44,4 +44,4 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: reports
-          path: reports
+          path: ${{ env.PACKAGE_PATH }}/reports
