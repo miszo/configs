@@ -1,0 +1,43 @@
+name: '[commitlint-config-miszo] SonarCloud'
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'packages/commitlint-config-miszo/**'
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - 'packages/commitlint-config-miszo/**'
+jobs:
+  sonar:
+    runs-on: ubuntu-latest
+    env:
+      PACKAGE_PATH: packages/commitlint-config-miszo
+    steps:
+      - name: Checkout
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Setup Node version
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - name: Create ./reports folder
+        run: mkdir -p ./reports
+        working-directory: ${{ env.PACKAGE_PATH }}
+      - name: Yarn install
+        run: yarn
+      - name: ESLint
+        run: yarn run eslint:json
+        working-directory: ${{ env.PACKAGE_PATH }}
+      - name: Prettier
+        run: yarn run prettier:check
+        working-directory: ${{ env.PACKAGE_PATH }}
+      - name: SonarCloud analysis
+        uses: sonarsource/sonarcloud-github-action@master
+        with:
+          projectBaseDir: ${{ env.PACKAGE_PATH }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}

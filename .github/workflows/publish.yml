@@ -7,15 +7,20 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Node version
+        uses: actions/setup-node@v1
         with:
           node-version: '12.x'
           registry-url: 'https://registry.npmjs.org'
-      - run: npm config set '//registry.npmjs.org/:_authToken' "${NODE_AUTH_TOKEN}"
+      - name: Authorize .npmrc
+        run: npm config set //registry.npmjs.org/:_authToken ${{ env.NODE_AUTH_TOKEN }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - run: yarn
-      - run: yarn run release
+      - name: Yarn install
+        run: yarn
+      - name: Publish packages
+        run: yarn run release
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}

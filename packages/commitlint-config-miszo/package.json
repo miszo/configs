@@ -19,11 +19,11 @@
   "scripts": {
     "eslint": "npx eslint --ignore-path .gitignore ./ --ext .js",
     "eslint:fix": "yarn run eslint --fix",
-    "eslint:staged": "eslint --fix",
+    "eslint:json": "yarn run eslint --quiet -f json -o reports/eslint.json",
     "format": "yarn run prettier --write",
-    "format:staged": "prettier --write",
     "lint:staged": "lint-staged --no-stash",
-    "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|md)\""
+    "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|md)\"",
+    "prettier:check": "yarn run prettier --list-different"
   },
   "devDependencies": {
     "editorconfig": "0.15.3",
