@@ -9,6 +9,7 @@ on:
       - 'packages/stylelint-miszo/**'
 jobs:
   sonar:
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
     runs-on: ubuntu-latest
     env:
       PACKAGE_PATH: packages/stylelint-miszo
