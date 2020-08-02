@@ -22,7 +22,7 @@
   "scripts": {
     "eslint": "eslint --ignore-path .gitignore ./ --ext .js",
     "eslint:fix": "yarn run eslint --fix",
-    "eslint:json": "yarn run eslint --quiet -f json -o reports/eslint.json",
+    "eslint:json": "yarn run eslint --quiet -f json -o ./reports/eslint.json",
     "format": "yarn run prettier --write",
     "lint:staged": "lint-staged --no-stash",
     "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|md)\"",
