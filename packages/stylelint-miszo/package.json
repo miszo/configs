@@ -28,7 +28,7 @@
     "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json)\"",
     "prettier:check": "yarn run prettier --list-different",
     "version": "yarn",
-    "prepublishOnly": "node ./updateAppVersion.js"
+    "prepublishOnly": "sh ./scripts/updateProjectVersion.sh && git add sonar-project.properties"
   },
   "devDependencies": {
     "editorconfig": "0.15.3",
