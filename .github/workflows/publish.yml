@@ -23,8 +23,8 @@ jobs:
           token: '${{ secrets.GH_TOKEN }}'
       - name: Yarn install
         run: yarn
-      # - name: Publish packages
-      #   run: yarn run release
-      #   env:
-      #     NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      #     GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      - name: Publish packages
+        run: yarn run release
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}

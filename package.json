@@ -11,7 +11,10 @@
   ],
   "scripts": {
     "format": "yarn run prettier --write && lerna run --parallel format",
-    "prettier": "prettier --ignore-path .gitignore \"*.+(js|json|md)\"",
+    "eslint": "lerna run --parallel eslint",
+    "eslint:fix": "lerna run --parallel eslint:fix",
+    "eslint:json": "lerna run --parallel eslint:json",
+    "prettier": "prettier --ignore-path .gitignore \"*.+(js|json)\"",
     "prerelease": "lerna publish --yes --create-release github --no-commit-hooks",
     "release": "lerna publish --yes --conventional-graduate --create-release github --no-commit-hooks",
     "development-release": "lerna publish --yes --conventional-prerelease --no-changelog --no-commit-hooks"

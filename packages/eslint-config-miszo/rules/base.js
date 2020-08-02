@@ -50,15 +50,15 @@ module.exports = {
   'unicorn/catch-error-name': ['error', { caughtErrorsIgnorePattern: '^_|undefined$' }],
   'unicorn/filename-case': [0],
   'import/no-extraneous-dependencies': 0,
-  "unicorn/no-null": 0,
-  "unicorn/prevent-abbreviations": [
-    "error",
+  'unicorn/no-null': 0,
+  'unicorn/prevent-abbreviations': [
+    'error',
     {
-      "whitelist": {
-        "ref": true,
-        "rel": true,
-      }
-    }
-  ]
+      whitelist: {
+        ref: true,
+        rel: true,
+      },
+    },
+  ],
 };
 /* eslint-enable no-magic-numbers */

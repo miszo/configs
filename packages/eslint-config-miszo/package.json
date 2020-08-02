@@ -35,7 +35,7 @@
     "eslint:json": "yarn run eslint --quiet -f json -o ./reports/eslint.json",
     "format": "yarn run prettier --write",
     "lint:staged": "lint-staged --no-stash",
-    "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|md)\"",
+    "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json)\"",
     "prettier:check": "yarn run prettier --list-different",
     "version": "yarn"
   },
