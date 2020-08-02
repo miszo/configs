@@ -16,7 +16,7 @@
   "useTabs": false,
   "overrides": [
     {
-      "files": [".huskyrc", ".lintstagedrc", ".prettierrc"],
+      "files": [".eslintrc", ".huskyrc", ".lintstagedrc", ".prettierrc"],
       "options": { "parser": "json" }
     }
   ]
