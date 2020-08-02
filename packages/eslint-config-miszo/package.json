@@ -37,7 +37,8 @@
     "lint:staged": "lint-staged --no-stash",
     "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json)\"",
     "prettier:check": "yarn run prettier --list-different",
-    "version": "yarn"
+    "version": "yarn",
+    "prepublishOnly": "node ./updateAppVersion.js"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "3.7.1",

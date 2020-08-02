@@ -4,8 +4,6 @@ const { resolve } = require('path');
 const fs = require('fs');
 const { version } = require('./package.json');
 
-const args = process.argv.slice(2);
-const releaseVersion = args[0] || version;
 const filesList = [
   {
     path: resolve(__dirname, 'sonar-project.properties'),
@@ -13,8 +11,6 @@ const filesList = [
     replaceWith: 'sonar.projectVersion=',
   },
 ];
-
-console.info(`Version from package.json: ${version}, next release version: ${releaseVersion}\n`);
 
 const updateAppVersion = (files, newVersion) => {
   files.forEach((file) => {
@@ -37,5 +33,5 @@ const updateAppVersion = (files, newVersion) => {
   });
 };
 
-updateAppVersion(filesList, releaseVersion);
+updateAppVersion(filesList, version);
 /* eslint-enable no-console, consistent-return */
