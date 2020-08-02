@@ -20,17 +20,19 @@
     "url": "https://github.com/miszo/configs/issues"
   },
   "scripts": {
-    "eslint": "npx eslint --ignore-path .gitignore ./ --ext .js",
+    "eslint": "eslint --ignore-path .gitignore ./ --ext .js",
     "eslint:fix": "yarn run eslint --fix",
     "eslint:json": "yarn run eslint --quiet -f json -o reports/eslint.json",
     "format": "yarn run prettier --write",
     "lint:staged": "lint-staged --no-stash",
     "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|md)\"",
-    "prettier:check": "yarn run prettier --list-different"
+    "prettier:check": "yarn run prettier --list-different",
+    "version": "yarn"
   },
   "devDependencies": {
     "editorconfig": "0.15.3",
     "eslint": "7.6.0",
+    "eslint-config-miszo": "3.0.3",
     "husky": "4.2.5",
     "lint-staged": "10.2.11",
     "prettier": "2.0.5"

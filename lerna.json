@@ -1,7 +1,5 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "exact": true,
   "npmClient": "yarn",
   "useWorkspaces": true,
@@ -15,8 +13,9 @@
       "changelogPreset": "eslint",
       "tagVersionPrefix": "v",
       "noCommitHooks": true,
-      "message": "Release: (%s) [skip ci] NO_CI",
+      "message": "Release: %s [skip ci]",
       "npmClient": "yarn",
+      "registry": "https://registry.npmjs.org",
       "verifyAccess": false
     }
   }
