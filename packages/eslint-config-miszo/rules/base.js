@@ -7,6 +7,7 @@ module.exports = {
   'arrow-parens': ['error', 'as-needed'],
   'max-len': ['error', { code: 120, comments: 120, tabWidth: 2 }],
   'space-in-parens': ['error', 'never'],
+  'one-var': ['error', 'never'],
   'keyword-spacing': ['error'],
   'max-params': ['error', 3],
   'max-statements': ['error', 10],
@@ -55,6 +56,7 @@ module.exports = {
     'error',
     {
       whitelist: {
+        args: true,
         ref: true,
         rel: true,
       },
