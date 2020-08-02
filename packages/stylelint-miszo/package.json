@@ -1,9 +1,9 @@
 {
   "name": "stylelint-miszo",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Stylelint rules for my projects.",
   "author": "Miszo Radomski <miszo.radomski@gmail.com>",
-  "homepage": "https://github.com/miszo/configs/tree/main/packages/stylelint#readme",
+  "homepage": "https://github.com/miszo/configs/tree/main/packages/stylelint-miszo#readme",
   "license": "MIT",
   "main": "lib/stylelint.config.js",
   "directories": {
