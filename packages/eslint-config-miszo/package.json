@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-miszo",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "ESLint rules for my projects.",
   "homepage": "https://github.com/miszo/configs/tree/main/packages/eslint-config-relax#readme",
   "author": "Miszo Radomski <miszo.radomski@gmail.com>",
