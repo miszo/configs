@@ -1,0 +1,37 @@
+{
+  "name": "commitlint-config-miszo",
+  "version": "3.0.0",
+  "description": "Stylelint rules for my projects.",
+  "author": "Miszo Radomski <miszo.radomski@gmail.com>",
+  "homepage": "https://github.com/miszo/configs/tree/main/packages/stylelint#readme",
+  "license": "MIT",
+  "main": "lib/commitlint.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": "git@github.com:miszo/configs.git",
+  "bugs": {
+    "url": "https://github.com/miszo/configs/issues"
+  },
+  "scripts": {
+    "eslint": "npx eslint --ignore-path .gitignore ./ --ext .js",
+    "eslint:fix": "yarn run eslint --fix",
+    "eslint:staged": "eslint --fix",
+    "format": "yarn run prettier --write",
+    "format:staged": "prettier --write",
+    "lint:staged": "lint-staged --no-stash",
+    "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|md)\""
+  },
+  "devDependencies": {
+    "editorconfig": "0.15.3",
+    "husky": "4.2.5",
+    "lint-staged": "10.2.11",
+    "prettier": "2.0.5"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "9.1.1"
+  }
+}

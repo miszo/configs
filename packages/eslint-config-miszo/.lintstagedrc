@@ -1,0 +1,4 @@
+{
+  "*.js": ["npm run eslint:staged"],
+  "**/*.+(js|json|md)": ["npm run format:staged"]
+}

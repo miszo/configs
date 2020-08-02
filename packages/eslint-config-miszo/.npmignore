@@ -1,0 +1,11 @@
+node_modules/
+docs/
+.editorconfig
+.gitignore
+.travis.yml
+.releaserc
+.jscpd.json
+.gitattributes
+.lintstagedrc
+.prettierrc
+

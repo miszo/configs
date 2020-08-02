@@ -1,0 +1,28 @@
+{
+  "name": "@miszo/configs",
+  "version": "3.0.0",
+  "description": "Monorepo holding configs for my projects",
+  "repository": "git@github.com:miszo/configs.git",
+  "author": "Miszo Radomski <miszo.radomski@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "format": "yarn run prettier --write && lerna run --parallel format",
+    "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|md)\"",
+    "release": "lerna publish --yes --conventional-graduate --create-release github --no-commit-hooks",
+    "development-release": "lerna publish --yes --conventional-prerelease --no-changelog --no-commit-hooks"
+  },
+  "devDependencies": {
+    "@babel/core": "7.11.0",
+    "@babel/preset-env": "7.11.0",
+    "@commitlint/cli": "9.1.1",
+    "commitlint-config-miszo": "3.0.0",
+    "conventional-changelog-eslint": "3.0.8",
+    "husky": "4.2.5",
+    "lerna": "3.22.1",
+    "prettier": "2.0.5"
+  }
+}

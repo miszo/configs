@@ -1,0 +1,23 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "exact": true,
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "3.0.0",
+  "command": {
+    "init": {
+      "exact": true
+    },
+    "publish": {
+      "conventionalCommits": true,
+      "changelogPreset": "eslint",
+      "tagVersionPrefix": "v",
+      "noCommitHooks": true,
+      "message": "Release: (%s) [skip ci] NO_CI",
+      "npmClient": "yarn",
+      "verifyAccess": false
+    }
+  }
+}

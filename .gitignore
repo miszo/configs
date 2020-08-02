@@ -1,0 +1,13 @@
+/.idea/
+
+/node_modules/
+
+/dist/
+
+.vscode
+
+package-lock.json
+
+lerna-debug.log
+yarn-error.log
+
