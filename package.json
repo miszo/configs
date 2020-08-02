@@ -1,6 +1,6 @@
 {
   "name": "@miszo/configs",
-  "version": "3.0.0",
+  "version": "0.0.1",
   "description": "Monorepo holding configs for my projects",
   "repository": "git@github.com:miszo/configs.git",
   "author": "Miszo Radomski <miszo.radomski@gmail.com>",
@@ -19,7 +19,7 @@
     "@babel/core": "7.11.0",
     "@babel/preset-env": "7.11.0",
     "@commitlint/cli": "9.1.1",
-    "commitlint-config-miszo": "3.0.0",
+    "commitlint-config-miszo": "3.0.2",
     "conventional-changelog-eslint": "3.0.8",
     "husky": "4.2.5",
     "lerna": "3.22.1",
