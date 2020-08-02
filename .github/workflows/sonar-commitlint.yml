@@ -1,4 +1,4 @@
-name: '[commitlint-config-miszo] SonarCloud'
+name: /[commitlint-config-miszo/] SonarCloud
 on:
   push:
     branches:
@@ -16,7 +16,7 @@ jobs:
       PACKAGE_PATH: packages/commitlint-config-miszo
     steps:
       - name: Checkout
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
         with:
           fetch-depth: 0
       - name: Setup Node version
@@ -28,6 +28,7 @@ jobs:
         working-directory: ${{ env.PACKAGE_PATH }}
       - name: Yarn install
         run: yarn
+        working-directory: ${{ env.PACKAGE_PATH }}
       - name: ESLint
         run: yarn run eslint:json
         working-directory: ${{ env.PACKAGE_PATH }}

@@ -14,13 +14,17 @@ jobs:
         with:
           node-version: '12.x'
           registry-url: 'https://registry.npmjs.org'
-      - name: Authorize .npmrc
-        run: npm config set //registry.npmjs.org/:_authToken ${{ env.NODE_AUTH_TOKEN }}
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Configure git credentials
+        uses: oleksiyrudenko/gha-git-credentials@v1
+        with:
+          name: 'Miszo Bot'
+          email: 'miszo.radomski+gh-bot@gmail.com'
+          actor: 'miszo-bot'
+          token: '${{ secrets.GH_TOKEN }}'
       - name: Yarn install
         run: yarn
       - name: Publish packages
         run: yarn run release
         env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
