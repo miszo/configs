@@ -36,6 +36,7 @@ jobs:
       - name: ESLint
         run: yarn run eslint:json
         working-directory: ${{ env.PACKAGE_PATH }}
+        continue-on-error: true
       - name: Prettier
         run: yarn run prettier:check
         working-directory: ${{ env.PACKAGE_PATH }}

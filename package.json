@@ -11,6 +11,7 @@
   ],
   "scripts": {
     "format": "yarn run prettier --write && lerna run --parallel format",
+    "prettier:check": "yarn run prettier --list-different && lerna run --parallel prettier:check",
     "eslint": "lerna run --parallel eslint",
     "eslint:fix": "lerna run --parallel eslint:fix",
     "eslint:json": "lerna run --parallel eslint:json",
