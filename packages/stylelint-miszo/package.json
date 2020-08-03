@@ -1,6 +1,6 @@
 {
   "name": "stylelint-miszo",
-  "version": "3.0.7",
+  "version": "3.0.8",
   "description": "Stylelint rules for my projects.",
   "author": "Miszo Radomski <miszo.radomski@gmail.com>",
   "homepage": "https://github.com/miszo/configs/tree/main/packages/stylelint-miszo#readme",
@@ -32,7 +32,7 @@
   "devDependencies": {
     "editorconfig": "0.15.3",
     "eslint": "7.6.0",
-    "eslint-config-miszo": "3.0.7",
+    "eslint-config-miszo": "3.0.8",
     "husky": "4.2.5",
     "lint-staged": "10.2.11",
     "prettier": "2.0.5"
