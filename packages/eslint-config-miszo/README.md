@@ -1,9 +1,9 @@
 # eslint-config-miszo
 
-[![version](https://img.shields.io/npm/v/eslint-config-miszo.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-miszo)
-[![downloads](https://img.shields.io/npm/dw/eslint-config-miszo.svg?style=flat-square)](https://npm-stat.com/charts.html?package=eslint-config-miszo&from=2019-02-24)
-[![MIT License](https://img.shields.io/npm/l/eslint-config-miszo.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![version](https://img.shields.io/npm/v/eslint-config-miszo.svg)](https://www.npmjs.com/package/eslint-config-miszo)
+[![downloads](https://img.shields.io/npm/dw/eslint-config-miszo.svg)](https://npm-stat.com/charts.html?package=eslint-config-miszo&from=2019-02-24)
+[![MIT License](https://img.shields.io/npm/l/eslint-config-miszo.svg)](http://opensource.org/licenses/MIT)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 ![eslint-config-miszo Sonar Cloud](https://github.com/miszo/configs/workflows/eslint-config-miszo%20Sonar%20Cloud/badge.svg)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=eslint-config-miszo&metric=alert_status)](https://sonarcloud.io/dashboard?id=eslint-config-miszo)
 
