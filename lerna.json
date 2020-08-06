@@ -15,7 +15,7 @@
       "changelogPreset": "eslint",
       "tagVersionPrefix": "v",
       "noCommitHooks": true,
-      "message": "Release: %s [skip ci]",
+      "message": "Release: %s",
       "npmClient": "yarn",
       "registry": "https://registry.npmjs.org",
       "verifyAccess": false
