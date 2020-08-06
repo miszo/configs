@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>3.0.12 (2020-08-06)</small>
+
+* Build: New build workflow ([ca6f7f8](https://github.com/miszo/configs/commit/ca6f7f8))
+
+
+
+
+
 ## <small>3.0.11 (2020-08-06)</small>
 
 * New: Run sonar after release ([3b20bb2](https://github.com/miszo/configs/commit/3b20bb2))
