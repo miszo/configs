@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>3.0.10 (2020-08-06)</small>
+
+* Merge branch 'main' of github.com:miszo/configs into main ([b6657cc](https://github.com/miszo/configs/commit/b6657cc))
+
+
+
+
+
 ## <small>3.0.9 (2020-08-03)</small>
 
 * New: ESLint continue on error and provide report ([99ae061](https://github.com/miszo/configs/commit/99ae061))
