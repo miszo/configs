@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>3.0.11 (2020-08-06)</small>
+
+* New: Run sonar after release ([3b20bb2](https://github.com/miszo/configs/commit/3b20bb2))
+
+
+
+
+
 ## <small>3.0.10 (2020-08-06)</small>
 
 * Merge branch 'main' of github.com:miszo/configs into main ([b6657cc](https://github.com/miszo/configs/commit/b6657cc))
