@@ -1,15 +1,13 @@
 name: eslint-config-miszo Sonar Cloud
 on:
-  push:
-    branches:
-      - main
+  release:
+    types: [published]
   pull_request:
     types: [opened, synchronize, reopened]
     paths:
       - 'packages/eslint-config-miszo/**'
 jobs:
   sonar:
-    if: "!contains(github.event.head_commit.message, '[skip ci]')"
     runs-on: ubuntu-latest
     env:
       PACKAGE_PATH: packages/eslint-config-miszo

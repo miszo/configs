@@ -1,15 +1,13 @@
 name: commitlint-config-miszo SonarCloud
 on:
-  push:
-    branches:
-      - main
+  release:
+    types: [published]
   pull_request:
     types: [opened, synchronize, reopened]
     paths:
       - 'packages/commitlint-config-miszo/**'
 jobs:
   sonar:
-    if: "!contains(github.event.head_commit.message, '[skip ci]')"
     runs-on: ubuntu-latest
     env:
       PACKAGE_PATH: packages/commitlint-config-miszo

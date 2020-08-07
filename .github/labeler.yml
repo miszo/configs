@@ -4,5 +4,5 @@ eslint-config-miszo:
   - packages/eslint-config-miszo/**/*
 stylelint-miszo:
   - packages/stylelint-miszo/**/*
-github-worklows:
+github-workflows:
   - .github/workflows/**/*
