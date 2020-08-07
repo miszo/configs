@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>3.0.13 (2020-08-06)</small>
+
+* New: Rollback to previous workflow ([3d12b83](https://github.com/miszo/configs/commit/3d12b83))
+
+
+
+
+
 ## <small>3.0.12 (2020-08-06)</small>
 
 * Build: New build workflow ([ca6f7f8](https://github.com/miszo/configs/commit/ca6f7f8))
