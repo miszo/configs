@@ -1,3 +1,5 @@
+miszo-configs:
+  - /*
 commitlint-config-miszo:
   - packages/commitlint-config-miszo/**/*
 eslint-config-miszo:
