@@ -1,4 +1,4 @@
-configs:
+miszo-configs:
   - /*
 commitlint-config-miszo:
   - packages/commitlint-config-miszo/**/*
