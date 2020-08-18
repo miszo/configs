@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>3.0.16 (2020-08-18)</small>
+
+* Fix: Versioning ([eaa45f5](https://github.com/miszo/configs/commit/eaa45f5))
+
+
+
+
+
 ## <small>3.0.15 (2020-08-18)</small>
 
 * Upgrade: Bump actions/setup-node from v1 to v2.1.1 (#2) ([dee9806](https://github.com/miszo/configs/commit/dee9806)), closes [#2](https://github.com/miszo/configs/issues/2)
