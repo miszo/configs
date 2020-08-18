@@ -1,6 +1,6 @@
 {
   "name": "commitlint-config-miszo",
-  "version": "3.0.14",
+  "version": "3.0.15",
   "description": "Stylelint rules for my projects.",
   "author": "Miszo Radomski <miszo.radomski@gmail.com>",
   "homepage": "https://github.com/miszo/configs/tree/main/packages/commitlint-config-miszo#readme",
@@ -29,7 +29,7 @@
   "devDependencies": {
     "editorconfig": "0.15.3",
     "eslint": "7.7.0",
-    "eslint-config-miszo": "3.0.14",
+    "eslint-config-miszo": "3.0.15",
     "husky": "4.2.5",
     "lint-staged": "10.2.11",
     "prettier": "2.0.5"
