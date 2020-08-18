@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>3.0.15 (2020-08-18)</small>
+
+* Build: Introduce dependabot (#1) ([0c4cdfd](https://github.com/miszo/configs/commit/0c4cdfd)), closes [#1](https://github.com/miszo/configs/issues/1)
+
+
+
+
+
 ## <small>3.0.14 (2020-08-07)</small>
 
 * Merge branch 'main' of github.com:miszo/configs into main ([c78e732](https://github.com/miszo/configs/commit/c78e732))
