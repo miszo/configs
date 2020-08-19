@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>3.0.18 (2020-08-19)</small>
+
+* Upgrade: Bump @babel/core from 7.11.0 to 7.11.1 (#18) ([e82830a](https://github.com/miszo/configs/commit/e82830a)), closes [#18](https://github.com/miszo/configs/issues/18)
+
+
+
+
+
 ## <small>3.0.17 (2020-08-18)</small>
 
 * Upgrade: Bump eslint-plugin-jsdoc from 30.2.1 to 30.2.4 (#16) ([cbf1081](https://github.com/miszo/configs/commit/cbf1081)), closes [#16](https://github.com/miszo/configs/issues/16)
