@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>3.0.19 (2020-08-26)</small>
+
+* Upgrade: Bump @babel/core from 7.11.1 to 7.11.4 (#19) ([49b974c](https://github.com/miszo/configs/commit/49b974c)), closes [#19](https://github.com/miszo/configs/issues/19)
+
+
+
+
+
 ## <small>3.0.18 (2020-08-19)</small>
 
 * Upgrade: Bump @babel/core from 7.11.0 to 7.11.1 (#18) ([e82830a](https://github.com/miszo/configs/commit/e82830a)), closes [#18](https://github.com/miszo/configs/issues/18)
