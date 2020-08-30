@@ -31,7 +31,7 @@
     "eslint-config-miszo": "3.0.19",
     "husky": "4.2.5",
     "lint-staged": "10.2.11",
-    "prettier": "2.0.5"
+    "prettier": "2.1.1"
   },
   "dependencies": {
     "@commitlint/config-conventional": "9.1.2"
