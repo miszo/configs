@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-miszo",
+  "name": "@miszo/stylelint",
   "version": "3.0.27",
   "description": "Stylelint rules for my projects.",
   "author": "Miszo Radomski <miszo.radomski@gmail.com>",

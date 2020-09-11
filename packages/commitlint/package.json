@@ -1,5 +1,5 @@
 {
-  "name": "commitlint-config-miszo",
+  "name": "@miszo/commitlint",
   "version": "3.0.27",
   "description": "Stylelint rules for my projects.",
   "author": "Miszo Radomski <miszo.radomski@gmail.com>",
