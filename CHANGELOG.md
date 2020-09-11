@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>3.0.27 (2020-09-11)</small>
+
+* Fix: Remove scope ([5758561](https://github.com/miszo/configs/commit/5758561))
+
+
+
+
+
 ## <small>3.0.26 (2020-09-11)</small>
 
 * Build: Publish to GH packages workflow ([66b385c](https://github.com/miszo/configs/commit/66b385c))
