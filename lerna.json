@@ -5,7 +5,7 @@
   "exact": true,
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "version": "3.0.26",
+  "version": "3.0.27",
   "command": {
     "init": {
       "exact": true
