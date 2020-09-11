@@ -1,9 +1,9 @@
-name: Lerna publish
+name: Publish packages to GitHub packages
 on:
   release:
     types: [published]
 jobs:
-  publish:
+  gh-publish:
     runs-on: ubuntu-latest
     env:
       COMMITLINT: packages/commitlint-config-miszo

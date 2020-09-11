@@ -7,7 +7,7 @@ on:
     paths:
       - 'packages/stylelint-miszo/**'
 jobs:
-  sonar:
+  sonar-stylelint:
     runs-on: ubuntu-latest
     env:
       PACKAGE_PATH: packages/stylelint-miszo

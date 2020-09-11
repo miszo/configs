@@ -4,7 +4,7 @@ on:
     branches:
       - main
 jobs:
-  publish:
+  lerna-publish:
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
     runs-on: ubuntu-latest
     steps:
@@ -34,7 +34,3 @@ jobs:
         with:
           node-version: '12.x'
           registry-url: 'https://npm.pkg.github.com'
-      - name: Publish packages to GitHub packages
-        run: yarn run release:github
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}

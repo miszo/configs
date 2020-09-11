@@ -7,7 +7,7 @@ on:
     paths:
       - 'packages/commitlint-config-miszo/**'
 jobs:
-  sonar:
+  sonar-commitlint:
     runs-on: ubuntu-latest
     env:
       PACKAGE_PATH: packages/commitlint-config-miszo

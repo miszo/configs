@@ -7,7 +7,7 @@ on:
     paths:
       - 'packages/eslint-config-miszo/**'
 jobs:
-  sonar:
+  sonar-eslint:
     runs-on: ubuntu-latest
     env:
       PACKAGE_PATH: packages/eslint-config-miszo
