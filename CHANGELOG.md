@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>3.0.21 (2020-09-11)</small>
+
+* Build: Publish packages to GitHub registry (#53) ([ee7eeb9](https://github.com/miszo/configs/commit/ee7eeb9)), closes [#53](https://github.com/miszo/configs/issues/53)
+
+
+
+
+
 ## <small>3.0.20 (2020-09-11)</small>
 
 * Upgrade: Dependencies and clear audit (#52) ([b8e276f](https://github.com/miszo/configs/commit/b8e276f)), closes [#52](https://github.com/miszo/configs/issues/52)
