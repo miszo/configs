@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>3.0.26 (2020-09-11)</small>
+
+* Build: Publish to GH packages workflow ([66b385c](https://github.com/miszo/configs/commit/66b385c))
+
+
+
+
+
 ## <small>3.0.25 (2020-09-11)</small>
 
 * Fix: Publish GH script ([48559f6](https://github.com/miszo/configs/commit/48559f6))

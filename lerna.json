@@ -1,9 +1,11 @@
 {
-  "packages": ["packages/*"],
+  "packages": [
+    "packages/*"
+  ],
   "exact": true,
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "version": "3.0.25",
+  "version": "3.0.26",
   "command": {
     "init": {
       "exact": true
