@@ -29,7 +29,12 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      - name: Setup Node version
+        uses: actions/setup-node@v2.1.1
+        with:
+          node-version: '12.x'
+          registry-url: 'https://npm.pkg.github.com'
       - name: Publish packages to GitHub packages
         run: yarn run release:github
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
