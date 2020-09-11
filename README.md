@@ -10,9 +10,9 @@ Linter configs for my project. Feel free to use these conventions.
 
 Packages:
 
-- [commitlint-config-miszo](./packages/commitlint-config-miszo/)
-- [eslint-config-miszo](./packages/eslint-config-miszo/)
-- [stylelint-miszo](./packages/stylelint-miszo/)
+- [@miszo/commitlint](./packages/commitlint/)
+- [@miszo/eslint-config](./packages/eslint-config/)
+- [@miszo/stylelint](./packages/stylelint/)
 
 ## Contributing
 
