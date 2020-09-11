@@ -26,9 +26,9 @@
     "prettier:check": "yarn run prettier --list-different"
   },
   "devDependencies": {
+    "@miszo/eslint-config": "3.0.29",
     "editorconfig": "0.15.3",
     "eslint": "7.8.1",
-    "@miszo/eslint-config": "3.0.28",
     "husky": "4.3.0",
     "lint-staged": "10.3.0",
     "prettier": "2.1.1"
