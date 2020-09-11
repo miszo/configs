@@ -30,18 +30,18 @@
   },
   "devDependencies": {
     "editorconfig": "0.15.3",
-    "eslint": "7.7.0",
+    "eslint": "7.8.1",
     "eslint-config-miszo": "3.0.19",
-    "husky": "4.2.5",
-    "lint-staged": "10.2.11",
-    "prettier": "2.0.5"
+    "husky": "4.3.0",
+    "lint-staged": "10.3.0",
+    "prettier": "2.1.1"
   },
   "dependencies": {
     "stylelint-config-recommended": "3.0.0",
     "stylelint-config-recommended-scss": "4.2.0",
     "stylelint-config-standard": "20.0.0",
     "stylelint-declaration-block-no-ignored-properties": "2.3.0",
-    "stylelint-declaration-use-variable": "1.7.2",
+    "stylelint-declaration-strict-value": "1.6.0",
     "stylelint-order": "4.1.0",
     "stylelint-scss": "3.18.0"
   },

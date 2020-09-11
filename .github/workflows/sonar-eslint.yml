@@ -20,7 +20,7 @@ jobs:
         uses: actions/setup-node@v2.1.1
         with:
           node-version: '12.x'
-      - name: get-npm-version
+      - name: Get package version
         id: package-version
         uses: martinbeentjes/npm-get-version-action@master
         with:
@@ -30,7 +30,9 @@ jobs:
         working-directory: ${{ env.PACKAGE_PATH }}
       - name: Yarn install
         run: yarn
-        working-directory: ${{ env.PACKAGE_PATH }}
+      - name: Audit CI
+        run: yarn run audit-ci
+        continue-on-error: true
       - name: ESLint
         run: yarn run eslint:json
         working-directory: ${{ env.PACKAGE_PATH }}
@@ -38,6 +40,7 @@ jobs:
       - name: Prettier
         run: yarn run prettier:check
         working-directory: ${{ env.PACKAGE_PATH }}
+        continue-on-error: true
       - name: SonarCloud analysis
         uses: sonarsource/sonarcloud-github-action@master
         with:
