@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>3.0.20 (2020-09-11)</small>
+
+* Upgrade: Dependencies and clear audit (#52) ([b8e276f](https://github.com/miszo/configs/commit/b8e276f)), closes [#52](https://github.com/miszo/configs/issues/52)
+
+
+
+
+
 ## <small>3.0.19 (2020-08-26)</small>
 
 * Upgrade: Bump @babel/core from 7.11.1 to 7.11.4 (#19) ([49b974c](https://github.com/miszo/configs/commit/49b974c)), closes [#19](https://github.com/miszo/configs/issues/19)
