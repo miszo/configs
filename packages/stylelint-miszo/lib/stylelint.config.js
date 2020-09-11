@@ -41,12 +41,11 @@ module.exports = {
     'selector-no-qualifying-type': true,
     'selector-no-vendor-prefix': true,
     'selector-pseudo-element-colon-notation': 'single',
-    'sh-waqar/declaration-use-variable': [
+    'scale-unlimited/declaration-strict-value': [
       [
-        ['/color/', { ignoreValues: ['transparent'] }],
+        ['/color/', { ignoreValues: ['transparent', 'none'] }],
         'z-index',
         ['font-size', { ignoreValues: ['inherit', 'initial'] }],
-        'font-size',
         'font-weight',
       ],
     ],

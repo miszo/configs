@@ -27,14 +27,14 @@
   },
   "devDependencies": {
     "editorconfig": "0.15.3",
-    "eslint": "7.7.0",
+    "eslint": "7.8.1",
     "eslint-config-miszo": "3.0.19",
-    "husky": "4.2.5",
-    "lint-staged": "10.2.11",
-    "prettier": "2.0.5"
+    "husky": "4.3.0",
+    "lint-staged": "10.3.0",
+    "prettier": "2.1.1"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "9.1.2"
+    "@commitlint/config-conventional": "11.0.0"
   },
   "gitHead": "e67f90e43cf37284e2bfcc3b9ca84c4ec1bd0304"
 }

@@ -4,6 +4,10 @@ module.exports = {
     'subject-case': [2, 'always', 'sentence-case'],
     'subject-empty': [2, 'never'],
     'type-case': [2, 'always', 'sentence-case'],
-    'type-enum': [2, 'always', ['Fix', 'Update', 'New', 'Build', 'Docs', 'Breaking', 'Upgrade']],
+    'type-enum': [
+      2,
+      'always',
+      ['Fix', 'Update', 'Feature', 'Build', 'Docs', 'Breaking', 'Upgrade', 'Chore', 'Release'],
+    ],
   },
 };
