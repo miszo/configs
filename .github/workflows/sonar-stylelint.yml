@@ -1,16 +1,16 @@
-name: stylelint-miszo SonarCloud
+name: '@miszo/stylelint SonarCloud'
 on:
   release:
     types: [published]
   pull_request:
     types: [opened, synchronize, reopened]
     paths:
-      - 'packages/stylelint-miszo/**'
+      - 'packages/stylelint/**'
 jobs:
   sonar-stylelint:
     runs-on: ubuntu-latest
     env:
-      PACKAGE_PATH: packages/stylelint-miszo
+      PACKAGE_PATH: packages/stylelint
     steps:
       - name: Checkout
         uses: actions/checkout@v2

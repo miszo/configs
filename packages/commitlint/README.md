@@ -1,11 +1,11 @@
-# commitlint-config-miszo
+# @miszo/commitlint
 
-[![version](https://img.shields.io/npm/v/commitlint-config-miszo.svg)](https://www.npmjs.com/package/commitlint-config-miszo)
-[![downloads](https://img.shields.io/npm/dw/commitlint-config-miszo.svg)](https://npm-stat.com/charts.html?package=commitlint-config-miszo&from=2019-02-24)
-[![MIT License](https://img.shields.io/npm/l/commitlint-config-miszo.svg)](http://opensource.org/licenses/MIT)
+[![version](https://img.shields.io/npm/v/@miszo/commitlint.svg)](https://www.npmjs.com/package/@miszo/commitlint)
+[![downloads](https://img.shields.io/npm/dw/@miszo/commitlint.svg)](https://npm-stat.com/charts.html?package=@miszo/commitlint&from=2019-02-24)
+[![MIT License](https://img.shields.io/npm/l/@miszo/commitlint.svg)](http://opensource.org/licenses/MIT)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-![commitlint-config-miszo SonarCloud](https://github.com/miszo/configs/workflows/commitlint-config-miszo%20SonarCloud/badge.svg)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=commitlint-config-miszo&metric=alert_status)](https://sonarcloud.io/dashboard?id=commitlint-config-miszo)
+![@miszo/commitlint SonarCloud](https://github.com/miszo/configs/workflows/@miszo/commitlint%20SonarCloud/badge.svg)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=@miszo/commitlint&metric=alert_status)](https://sonarcloud.io/dashboard?id=@miszo/commitlint)
 
 Commitlint rules for my projects. Feel free to use these conventions.
 

@@ -5,12 +5,12 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
     paths:
-      - 'packages/commitlint-config-miszo/**'
+      - 'packages/commitlint/**'
 jobs:
   sonar-commitlint:
     runs-on: ubuntu-latest
     env:
-      PACKAGE_PATH: packages/commitlint-config-miszo
+      PACKAGE_PATH: packages/commitlint
     steps:
       - name: Checkout
         uses: actions/checkout@v2

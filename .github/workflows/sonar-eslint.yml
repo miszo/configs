@@ -1,16 +1,16 @@
-name: eslint-config-miszo Sonar Cloud
+name: '@miszo/eslint-config Sonar Cloud'
 on:
   release:
     types: [published]
   pull_request:
     types: [opened, synchronize, reopened]
     paths:
-      - 'packages/eslint-config-miszo/**'
+      - 'packages/eslint-config/**'
 jobs:
   sonar-eslint:
     runs-on: ubuntu-latest
     env:
-      PACKAGE_PATH: packages/eslint-config-miszo
+      PACKAGE_PATH: packages/eslint-config
     steps:
       - name: Checkout
         uses: actions/checkout@v2

@@ -1,15 +1,15 @@
-# eslint-config-miszo
+# @miszo/eslint-config
 
-[![version](https://img.shields.io/npm/v/eslint-config-miszo.svg)](https://www.npmjs.com/package/eslint-config-miszo)
-[![downloads](https://img.shields.io/npm/dw/eslint-config-miszo.svg)](https://npm-stat.com/charts.html?package=eslint-config-miszo&from=2019-02-24)
-[![MIT License](https://img.shields.io/npm/l/eslint-config-miszo.svg)](http://opensource.org/licenses/MIT)
+[![version](https://img.shields.io/npm/v/@miszo/eslint-config.svg)](https://www.npmjs.com/package/@miszo/eslint-config)
+[![downloads](https://img.shields.io/npm/dw/@miszo/eslint-config.svg)](https://npm-stat.com/charts.html?package=@miszo/eslint-config&from=2019-02-24)
+[![MIT License](https://img.shields.io/npm/l/@miszo/eslint-config.svg)](http://opensource.org/licenses/MIT)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-![eslint-config-miszo Sonar Cloud](https://github.com/miszo/configs/workflows/eslint-config-miszo%20Sonar%20Cloud/badge.svg)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=eslint-config-miszo&metric=alert_status)](https://sonarcloud.io/dashboard?id=eslint-config-miszo)
+![@miszo/eslint-config Sonar Cloud](https://github.com/miszo/configs/workflows/@miszo/eslint-config%20Sonar%20Cloud/badge.svg)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=@miszo/eslint-config&metric=alert_status)](https://sonarcloud.io/dashboard?id=@miszo/eslint-config)
 
 ESLint rules for my projects. Feel free to use these conventions.
 
-- [eslint-config-miszo](#eslint-config-miszo)
+- [@miszo/eslint-config](#miszoeslint-config)
   - [Usage](#usage)
     - [Configs](#configs)
   - [Contributing](#contributing)
@@ -21,7 +21,7 @@ ESLint rules for my projects. Feel free to use these conventions.
 Install the conventions by running:
 
 ```bash
-npm install --save-dev eslint eslint-config-miszo
+npm install --save-dev eslint @miszo/eslint-config
 ```
 
 Then add the extends to your `.eslintrc`:
