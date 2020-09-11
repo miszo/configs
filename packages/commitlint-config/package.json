@@ -1,6 +1,6 @@
 {
   "name": "@miszo/commitlint-config",
-  "version": "3.0.28",
+  "version": "3.0.30",
   "description": "Commitlint rules for my projects.",
   "author": "Miszo Radomski <miszo.radomski@gmail.com>",
   "homepage": "https://github.com/miszo/configs/tree/main/packages/commitlint-config-miszo#readme",
@@ -26,7 +26,7 @@
     "prettier:check": "yarn run prettier --list-different"
   },
   "devDependencies": {
-    "@miszo/eslint-config": "3.0.29",
+    "@miszo/eslint-config": "3.0.30",
     "editorconfig": "0.15.3",
     "eslint": "7.8.1",
     "husky": "4.3.0",

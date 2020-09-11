@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>3.0.30 (2020-09-11)</small>
+
+* Merge branch 'main' of github.com:miszo/configs into main ([92dded3](https://github.com/miszo/configs/commit/92dded3))
+
+
+
+
+
 ## <small>3.0.29 (2020-09-11)</small>
 
 * Upgrade: Yarn lock file ([f3e22ad](https://github.com/miszo/configs/commit/f3e22ad))
