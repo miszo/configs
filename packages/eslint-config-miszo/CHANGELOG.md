@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>3.0.32 (2020-09-11)</small>
+
+* Merge branch 'main' of github.com:miszo/configs into main ([2a13a1d](https://github.com/miszo/configs/commit/2a13a1d))
+
+
+
+
+
 ## <small>3.0.31 (2020-09-11)</small>
 
 * Fix: Description ([3b1636d](https://github.com/miszo/configs/commit/3b1636d))
