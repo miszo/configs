@@ -1,7 +1,7 @@
 {
-  "name": "@miszo/commitlint",
+  "name": "@miszo/commitlint-config",
   "version": "3.0.28",
-  "description": "Stylelint rules for my projects.",
+  "description": "Commitlint rules for my projects.",
   "author": "Miszo Radomski <miszo.radomski@gmail.com>",
   "homepage": "https://github.com/miszo/configs/tree/main/packages/commitlint-config-miszo#readme",
   "license": "MIT",

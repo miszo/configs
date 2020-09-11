@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@miszo/commitlint'],
+  extends: ['@miszo/commitlint-config'],
 };

@@ -25,7 +25,7 @@
     "@babel/core": "7.11.6",
     "@babel/preset-env": "7.11.5",
     "@commitlint/cli": "11.0.0",
-    "@miszo/commitlint": "file:./packages/commitlint",
+    "@miszo/commitlint-config": "file:./packages/commitlint-config",
     "audit-ci": "3.1.1",
     "conventional-changelog-eslint": "3.0.8",
     "husky": "4.3.0",
