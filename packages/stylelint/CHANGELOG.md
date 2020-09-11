@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>3.0.28 (2020-09-11)</small>
+
+* Merge branch 'main' of github.com:miszo/configs into main ([5657dfe](https://github.com/miszo/configs/commit/5657dfe))
+
+
+
+
+
 ## <small>3.0.27 (2020-09-11)</small>
 
 * Fix: Remove scope ([5758561](https://github.com/miszo/configs/commit/5758561))
