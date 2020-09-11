@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>3.0.23 (2020-09-11)</small>
+
+* Fix: Publish GH script ([6bba588](https://github.com/miszo/configs/commit/6bba588))
+
+
+
+
+
 ## <small>3.0.22 (2020-09-11)</small>
 
 * Build: Another try with GH packages (#54) ([ff5f889](https://github.com/miszo/configs/commit/ff5f889)), closes [#54](https://github.com/miszo/configs/issues/54)
