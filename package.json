@@ -10,6 +10,7 @@
     "packages/*"
   ],
   "scripts": {
+    "audit-ci": "audit-ci --high --pass-enoaudit",
     "format": "yarn run prettier --write && lerna run --parallel format",
     "prettier:check": "yarn run prettier --list-different && lerna run --parallel prettier:check",
     "eslint": "lerna run --parallel eslint",
@@ -24,6 +25,7 @@
     "@babel/core": "7.11.6",
     "@babel/preset-env": "7.11.5",
     "@commitlint/cli": "11.0.0",
+    "audit-ci": "3.1.1",
     "commitlint-config-miszo": "file:./packages/commitlint-config-miszo",
     "conventional-changelog-eslint": "3.0.8",
     "husky": "4.3.0",
