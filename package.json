@@ -19,7 +19,7 @@
     "prettier": "prettier --ignore-path .gitignore \"*.+(js|json)\"",
     "prerelease": "lerna publish --yes --create-release github --no-commit-hooks",
     "release": "lerna publish --yes --conventional-graduate --create-release github --no-commit-hooks",
-    "release:github": "lerna publish from-package --yes --registry=https://npm.pkg.github.com",
+    "release:github": "lerna publish from-package --yes --registry=https://npm.pkg.github.com/miszo",
     "development-release": "lerna publish --yes --conventional-prerelease --no-changelog --no-commit-hooks"
   },
   "devDependencies": {
