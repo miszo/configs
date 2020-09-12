@@ -1,7 +1,7 @@
 module.exports = {
   extends: ['stylelint-config-standard', 'stylelint-config-recommended', 'stylelint-config-recommended-scss'],
   plugins: [
-    'stylelint-declaration-use-variable',
+    'stylelint-declaration-strict-value',
     'stylelint-declaration-block-no-ignored-properties',
     'stylelint-order',
     'stylelint-scss',

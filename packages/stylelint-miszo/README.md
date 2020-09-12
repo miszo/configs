@@ -11,12 +11,12 @@ Stylelint rules for my projects. Feel free to use these conventions.
 
 ## Usage
 
-Just add `miszo` to yours `extends` section in stylelint config.
+Just add `stylelint-miszo` to yours `extends` section in stylelint config.
 
 ```javascript
 module.exports = {
   extends: [
-    'miszo'
+    'stylelint-miszo'
   ]
 };
 ```
