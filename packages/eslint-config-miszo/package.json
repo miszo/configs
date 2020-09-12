@@ -19,6 +19,7 @@
     "prettier.js",
     "react.js",
     "tsdoc.js",
+    "flowtype.js",
     "typescript.js",
     "webpack.js",
     "rules/**"
@@ -50,6 +51,7 @@
     "eslint-plugin-compat": "3.8.0",
     "eslint-plugin-emotion": "10.0.27",
     "eslint-plugin-eslint-comments": "3.2.0",
+    "eslint-plugin-flowtype": "5.2.0",
     "eslint-plugin-import": "2.22.0",
     "eslint-plugin-jest": "24.0.0",
     "eslint-plugin-jsdoc": "30.4.1",
