@@ -42,12 +42,11 @@ module.exports = {
     'selector-no-vendor-prefix': true,
     'selector-pseudo-element-colon-notation': 'single',
     'scale-unlimited/declaration-strict-value': [
-      [
-        ['/color/', { ignoreValues: ['transparent', 'none'] }],
-        'z-index',
-        ['font-size', { ignoreValues: ['inherit', 'initial'] }],
-        'font-weight',
-      ],
+      ['/color/', { ignoreValues: ['transparent', 'none'] }],
+      'z-index',
+      ['font-size', { ignoreValues: ['inherit', 'initial'] }],
+      'font-weight',
+      [['fill', 'stroke'], { ignoreValues: ['inherit', 'currentColor'] }],
     ],
     'string-quotes': 'single',
   },
