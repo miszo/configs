@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>3.0.36 (2020-09-15)</small>
+
+* Chore: Clean configs (#65) ([c336531](https://github.com/miszo/configs/commit/c336531)), closes [#65](https://github.com/miszo/configs/issues/65)
+
+
+
+
+
 ## <small>3.0.35 (2020-09-12)</small>
 
 * Fix: Stylelint config ([b220e10](https://github.com/miszo/configs/commit/b220e10))
