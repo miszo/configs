@@ -41,8 +41,8 @@
     "prettier:check": "yarn run prettier --list-different"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "4.1.0",
-    "@typescript-eslint/parser": "4.1.0",
+    "@typescript-eslint/eslint-plugin": "4.1.1",
+    "@typescript-eslint/parser": "4.1.1",
     "babel-eslint": "10.1.0",
     "eslint-config-airbnb": "18.2.0",
     "eslint-config-prettier": "6.11.0",
@@ -53,8 +53,8 @@
     "eslint-plugin-eslint-comments": "3.2.0",
     "eslint-plugin-flowtype": "5.2.0",
     "eslint-plugin-import": "2.22.0",
-    "eslint-plugin-jest": "24.0.0",
-    "eslint-plugin-jsdoc": "30.4.1",
+    "eslint-plugin-jest": "24.0.1",
+    "eslint-plugin-jsdoc": "30.5.1",
     "eslint-plugin-jsx-a11y": "6.3.1",
     "eslint-plugin-optimize-regex": "1.2.0",
     "eslint-plugin-prettier": "3.1.4",
@@ -67,7 +67,7 @@
   },
   "devDependencies": {
     "editorconfig": "0.15.3",
-    "eslint": "7.8.1",
+    "eslint": "7.9.0",
     "husky": "4.3.0",
     "lint-staged": "10.3.0",
     "prettier": "2.1.1"
