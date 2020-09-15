@@ -42,11 +42,8 @@ module.exports = {
     'selector-no-vendor-prefix': true,
     'selector-pseudo-element-colon-notation': 'single',
     'scale-unlimited/declaration-strict-value': [
-      ['/color/', { ignoreValues: ['transparent', 'none'] }],
-      'z-index',
-      ['font-size', { ignoreValues: ['inherit', 'initial'] }],
-      'font-weight',
-      [['fill', 'stroke'], { ignoreValues: ['inherit', 'currentColor'] }],
+      ['/color$/', 'z-index', 'font-size', 'font-weight', 'fill', 'stroke'],
+      { ignoreValues: ['transparent', 'none', 'inherit', 'initial', 'currentColor'] },
     ],
     'string-quotes': 'single',
   },
