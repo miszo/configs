@@ -46,5 +46,9 @@ module.exports = {
       { ignoreValues: ['transparent', 'none', 'inherit', 'initial', 'currentColor'] },
     ],
     'string-quotes': 'single',
+    'value-keyword-case': [
+      'lower',
+      { ignoreProperties: ['/color$/', 'z-index', 'font-size', 'font-weight', 'fill', 'stroke'] },
+    ],
   },
 };
