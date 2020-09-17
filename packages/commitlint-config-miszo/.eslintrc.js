@@ -1,1 +1,1 @@
-{ "extends": ["miszo", "miszo/prettier"] }
+module.exports = { extends: ['miszo', 'miszo/prettier'] };

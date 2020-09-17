@@ -1,1 +1,1 @@
-{ "extends": ["./index.js", "./prettier.js"] }
+module.exports = { extends: ['./index.js', './prettier.js'] };
