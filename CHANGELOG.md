@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>3.0.38 (2020-09-17)</small>
+
+* Fix: Linters and prettier ([67274ee](https://github.com/miszo/configs/commit/67274ee))
+
+
+
+
+
 ## <small>3.0.37 (2020-09-17)</small>
 
 * Feature: Configuration for value-keyword-case ([3971752](https://github.com/miszo/configs/commit/3971752))
