@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>3.0.41 (2020-09-18)</small>
+
+* Feature: Ingnore box-shadow in value-keyword-case ([3e3b823](https://github.com/miszo/configs/commit/3e3b823))
+
+
+
+
+
 ## <small>3.0.40 (2020-09-18)</small>
 
 * Feature: Ingnore flex in value-keyword-case ([2c80d17](https://github.com/miszo/configs/commit/2c80d17))
