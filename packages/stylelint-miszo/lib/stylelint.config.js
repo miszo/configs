@@ -48,7 +48,9 @@ module.exports = {
     'string-quotes': 'single',
     'value-keyword-case': [
       'lower',
-      { ignoreProperties: ['/color$/', 'z-index', 'font-size', 'font-weight', 'fill', 'stroke'] },
+      {
+        ignoreProperties: ['/color$/', 'z-index', 'font-size', 'font-weight', 'fill', 'stroke', '/^border/', '/^flex/'],
+      },
     ],
   },
 };
