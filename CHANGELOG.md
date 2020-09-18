@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>3.0.40 (2020-09-18)</small>
+
+* Feature: Ingnore flex in value-keyword-case ([2c80d17](https://github.com/miszo/configs/commit/2c80d17))
+
+
+
+
+
 ## <small>3.0.39 (2020-09-18)</small>
 
 * Feature: Change rules for react ([63f877c](https://github.com/miszo/configs/commit/63f877c))
