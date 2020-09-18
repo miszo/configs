@@ -4,7 +4,7 @@ module.exports = {
   extends: ['airbnb', 'react-app', 'plugin:react/all'],
   plugins: ['react', 'react-hooks'],
   rules: {
-    'react/boolean-prop-naming': [2, { rule: '^(is|has)[A-Z]([A-Za-z0-9]?)+', validateNested: true }],
+    'react/boolean-prop-naming': [2, { rule: '^(is|has|should)[A-Z]([A-Za-z0-9]?)+', validateNested: true }],
     'react/jsx-curly-spacing': [2, 'always'],
     'react/jsx-indent': ['error', 2],
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
@@ -14,13 +14,13 @@ module.exports = {
     'react/sort-comp': [
       1,
       {
-        order: ['static-methods', 'lifecycle', 'everything-else', '/^on.+$/', 'render'],
+        order: ['static-methods', 'lifecycle', 'everything-else', '/^on.+$/', '/^handle.+$/', 'render'],
       },
     ],
     'react/function-component-definition': [
       2,
       {
-        namedComponents: 'function-declaration',
+        namedComponents: 'arrow-function',
         unnamedComponents: 'arrow-function',
       },
     ],
