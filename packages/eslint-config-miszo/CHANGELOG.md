@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>3.0.39 (2020-09-18)</small>
+
+* Feature: Change rules for react ([63f877c](https://github.com/miszo/configs/commit/63f877c))
+
+
+
+
+
 ## <small>3.0.38 (2020-09-17)</small>
 
 * Fix: Linters and prettier ([67274ee](https://github.com/miszo/configs/commit/67274ee))
