@@ -49,7 +49,17 @@ module.exports = {
     'value-keyword-case': [
       'lower',
       {
-        ignoreProperties: ['/color$/', 'z-index', 'font-size', 'font-weight', 'fill', 'stroke', 'border', 'box-shadow', 'width'],
+        ignoreProperties: [
+          '/color$/',
+          'z-index',
+          'font-size',
+          'font-weight',
+          'fill',
+          'stroke',
+          'border',
+          'box-shadow',
+          'width',
+        ],
       },
     ],
   },
