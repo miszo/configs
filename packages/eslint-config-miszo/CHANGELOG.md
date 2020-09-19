@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>3.0.42 (2020-09-19)</small>
+
+* Feature: Ignore width in value-keyword-case ([25c59f2](https://github.com/miszo/configs/commit/25c59f2))
+
+
+
+
+
 ## <small>3.0.41 (2020-09-18)</small>
 
 * Feature: Ingnore box-shadow in value-keyword-case ([3e3b823](https://github.com/miszo/configs/commit/3e3b823))
