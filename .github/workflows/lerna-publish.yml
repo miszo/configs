@@ -16,7 +16,7 @@ jobs:
           node-version: '12.x'
           registry-url: 'https://registry.npmjs.org'
       - name: Configure git credentials
-        uses: oleksiyrudenko/gha-git-credentials@v1
+        uses: oleksiyrudenko/gha-git-credentials@v2
         with:
           name: 'Miszo Bot'
           email: 'miszo.radomski+gh-bot@gmail.com'
