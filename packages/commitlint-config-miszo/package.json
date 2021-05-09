@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "editorconfig": "0.15.3",
-    "eslint": "7.9.0",
+    "eslint": "7.26.0",
     "eslint-config-miszo": "3.0.42",
     "husky": "4.3.0",
     "lint-staged": "10.3.0",
