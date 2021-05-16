@@ -34,7 +34,7 @@
     "prettier": "2.1.1"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "11.0.0"
+    "@commitlint/config-conventional": "12.1.4"
   },
   "gitHead": "e67f90e43cf37284e2bfcc3b9ca84c4ec1bd0304"
 }
