@@ -34,7 +34,7 @@
     "eslint-config-miszo": "3.0.42",
     "husky": "4.3.0",
     "lint-staged": "10.3.0",
-    "prettier": "2.1.1"
+    "prettier": "2.3.2"
   },
   "dependencies": {
     "stylelint-config-recommended": "3.0.0",
